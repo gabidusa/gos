@@ -1,0 +1,365 @@
+TGladOrSade
+v7
+r0
+t323805125.881180
+cCheck dependencies
+cProcessInfoPlistFile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/Info.plist GladOrSade/GladOrSade-Info.plist
+cProcessPCH /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch.gch GladOrSade/GladOrSade-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/main.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPhone.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPad.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/VCTestRecording.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade normal i386
+cGenerateDSYMFile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app.dSYM /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade
+cCopyStringsFile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/InfoPlist.strings GladOrSade/en.lproj/InfoPlist.strings
+cCompileXIB /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib
+cCompileXIB /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/en.lproj/MainWindow_iPad.xib
+cCompileXIB /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.xib
+cTouch /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSade-Prefix.pch
+c000000004D9B7B0B0000000000000146
+t1302035211
+s326
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.h
+c000000004D9B7B0B0000000000000128
+t1302035211
+s296
+i<UIKit/UIKit.h>
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m
+c000000004D9C9EE6000000000000094B
+t1302109926
+s2379
+i"GladOrSadeAppDelegate.h"
+i"VCTestRecording.h"
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.h
+c000000004D9C9E860000000000000181
+t1302109830
+s385
+i<UIKit/UIKit.h>
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m
+c000000004D9CA7FF0000000000001695
+t1302112255
+s5781
+i"VCTestRecording.h"
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.xib
+c000000004D9B7B4C0000000000001868
+t1302035276
+s6248
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/en.lproj/InfoPlist.strings
+c000000004D9B7B0B000000000000002D
+t1302035211
+s45
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.h
+c000000004D9B7B0B0000000000000113
+t1302035211
+s275
+i<UIKit/UIKit.h>
+i"GladOrSadeAppDelegate.h"
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m
+c000000004D9B7B0B000000000000010B
+t1302035211
+s267
+i"GladOrSadeAppDelegate_iPad.h"
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/en.lproj/MainWindow_iPad.xib
+c000000004D9B7B0B0000000000003F20
+t1302035211
+s16160
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.h
+c000000004D9B7B0B0000000000000117
+t1302035211
+s279
+i<UIKit/UIKit.h>
+i"GladOrSadeAppDelegate.h"
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m
+c000000004D9B7B0B0000000000000111
+t1302035211
+s273
+i"GladOrSadeAppDelegate_iPhone.h"
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib
+c000000004D9B7B0B0000000000004112
+t1302035211
+s16658
+
+N/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m
+c000000004D9B7B0B0000000000000154
+t1302035211
+s340
+i<UIKit/UIKit.h>
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app
+t1302112325
+s238
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app.dSYM
+t1302112320
+s102
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade
+t1302112320
+s24748
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/Info.plist
+t1302112317
+s957
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/PkgInfo
+t1302112317
+s8
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/VCTestRecording.nib
+t1302112325
+s1231
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/InfoPlist.strings
+t1302112320
+s42
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/MainWindow_iPad.nib
+t1302112325
+s2288
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/MainWindow_iPhone.nib
+t1302112325
+s2291
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSade.LinkFileList
+c000000004D9CA83D00000000000002C5
+t1302112317
+s709
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate.o
+t1302112319
+s48484
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPad.o
+t1302112319
+s4088
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPhone.o
+t1302112319
+s4116
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/VCTestRecording.o
+t1302112319
+s48956
+
+N/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/main.o
+t1302112319
+s3092
+
+N/var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch.gch
+t1302112319
+s11992336
+
+NGladOrSade/GladOrSade-Info.plist
+c000000004D9CA4480000000000000603
+t1302111304
+s1539
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323805115#323805117#0(0"0(0#1#0"7881706606065705984#0"0#
+
+CCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323805119.306416
+e323805119.463384
+r1
+xCompileC
+xbuild/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate.o
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m323805119#323805119#0(0"0(0#0#72"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m8604543776#2157"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-generated-files.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-own-target-headers.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-all-target-headers.hmap -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-project-headers.hmap -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -I/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/include -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources/i386 -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch -c /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSadeAppDelegate.m -o /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate.o0#
+
+CCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPad.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323805119.308457
+e323805119.453088
+r1
+xCompileC
+xbuild/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPad.o
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@90"Compile /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m323805119#323805119#0(0"0(0#0#82"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m8602173344#2172"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-generated-files.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-own-target-headers.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-all-target-headers.hmap -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-project-headers.hmap -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -I/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/include -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources/i386 -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch -c /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/GladOrSadeAppDelegate_iPad.m -o /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPad.o0#
+
+CCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPhone.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323805119.307483
+e323805119.454685
+r1
+xCompileC
+xbuild/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPhone.o
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@94"Compile /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m323805119#323805119#0(0"0(0#0#86"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m8603941504#2178"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-generated-files.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-own-target-headers.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-all-target-headers.hmap -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-project-headers.hmap -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -I/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/include -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources/i386 -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch -c /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/GladOrSadeAppDelegate_iPhone.m -o /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSadeAppDelegate_iPhone.o0#
+
+CCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/VCTestRecording.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323805119.453215
+e323805119.526059
+r1
+xCompileC
+xbuild/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/VCTestRecording.o
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m:134: warning: method attribute may be specified on method declarations only
+o/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m: In function '-[VCTestRecording imagePickerController:didFinishPickingMediaWithInfo:]':
+o/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m:146: warning: unused variable 'selectedImage'
+o/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m:153: warning: unused variable 'videoURL'
+lSLF07#2@74"Compile /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m323805119#323805119#0(519"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m:134: warning: method attribute may be specified on method declarations only/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m: In function '-[VCTestRecording imagePickerController:didFinishPickingMediaWithInfo:]':/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m:146: warning: unused variable 'selectedImage'/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m:153: warning: unused variable 'videoURL'3(22@61"Method attribute may be specified on method declarations only323805119#0#143#0(6@66"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m323805055#134#0#134#0#0"0(22@31"Unused variable 'selectedImage'323805119#298#113#0(6@66"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m323805055#146#0#146#0#19"unused variable '*'0(22@26"Unused variable 'videoURL'323805119#411#108#0(6@66"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m323805055#153#0#153#0#19"unused variable '*'0(0#0#66"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m8605766912#2145"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-generated-files.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-own-target-headers.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-all-target-headers.hmap -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-project-headers.hmap -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -I/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/include -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources/i386 -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch -c /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.m -o /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/VCTestRecording.o0#
+
+CCompileC build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/main.o /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323805119.305225
+e323805119.454516
+r1
+xCompileC
+xbuild/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/main.o
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@63"Compile /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m323805119#323805119#0(0"0(0#0#55"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m8604062752#2123"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-generated-files.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-own-target-headers.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-all-target-headers.hmap -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-project-headers.hmap -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -I/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/include -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources/i386 -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch -c /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/main.m -o /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.xib
+s323805120.130577
+e323805125.431049
+r1
+xCompileXIB
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.xib
+lSLF07#2@41"CompileXIB GladOrSade/VCTestRecording.xib323805120#323805125#0(0"0(0#0#68"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.xib8605987680#639"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/VCTestRecording.nib /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/VCTestRecording.xib --sdk /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/en.lproj/MainWindow_iPad.xib
+s323805120.129936
+e323805125.878122
+r1
+xCompileXIB
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/en.lproj/MainWindow_iPad.xib
+lSLF07#2@55"CompileXIB GladOrSade/iPad/en.lproj/MainWindow_iPad.xib323805120#323805125#0(0"0(0#0#82"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/en.lproj/MainWindow_iPad.xib8606080384#662"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/MainWindow_iPad.nib /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPad/en.lproj/MainWindow_iPad.xib --sdk /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib
+s323805120.129266
+e323805125.668269
+r1
+xCompileXIB
+x/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib
+lSLF07#2@59"CompileXIB GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib323805120#323805125#0(0"0(0#0#86"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib8606227232#668"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/MainWindow_iPhone.nib /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/iPhone/en.lproj/MainWindow_iPhone.xib --sdk /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyStringsFile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/InfoPlist.strings GladOrSade/en.lproj/InfoPlist.strings
+s323805120.128561
+e323805120.756581
+r1
+xCopyStringsFile
+x/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj/InfoPlist.strings
+xGladOrSade/en.lproj/InfoPlist.strings
+lSLF07#2@42"Copy GladOrSade/en.lproj/InfoPlist.strings323805120#323805120#0(0"0(0#0#75"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/en.lproj/InfoPlist.strings8606257248#531"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary GladOrSade/en.lproj/InfoPlist.strings --outdir /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/en.lproj0#
+
+CGenerateDSYMFile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app.dSYM /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade
+s323805120.062314
+e323805120.128468
+r1
+xGenerateDSYMFile
+x/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app.dSYM
+x/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/GladOrSade.app.dSYM build/Debug-iphonesimulator/GladOrSade.app/GladOrSade323805120#323805120#0(0"0(0#0#91"/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade8606303552#425"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/usr/bin/dsymutil /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade -o /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app.dSYM0#
+
+CLd /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade normal i386
+s323805119.526145
+e323805120.062200
+r1
+xLd
+x/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade
+xnormal
+xi386
+lSLF07#2@96"Link /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade323805119#323805120#0(0"0(0#0#0"32088624093986912#972"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -filelist /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/Objects-normal/i386/GladOrSade.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/GladOrSade0#
+
+CProcessInfoPlistFile /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/Info.plist GladOrSade/GladOrSade-Info.plist
+s323805117.276037
+e323805117.297222
+r1
+xProcessInfoPlistFile
+x/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/Info.plist
+xGladOrSade/GladOrSade-Info.plist
+lSLF07#2@40"Process GladOrSade/GladOrSade-Info.plist323805117#323805117#0(0"0(0#0#70"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSade-Info.plist32651513917341812#520"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GladOrSade/GladOrSade-Info.plist -genpkginfo /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app/Info.plist0#
+
+CProcessPCH /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch.gch GladOrSade/GladOrSade-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s323805117.297461
+e323805119.305006
+r1
+xProcessPCH
+x/var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch.gch
+xGladOrSade/GladOrSade-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@43"Precompile GladOrSade/GladOrSade-Prefix.pch323805117#323805119#0(0"0(0#0#70"/Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSade-Prefix.pch8602425760#2013"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-generated-files.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-own-target-headers.hmap -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-all-target-headers.hmap -iquote /Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/GladOrSade-project-headers.hmap -F/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator -I/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/include -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources/i386 -I/Users/emildusa/Work/Tests/GladOrSade/build/GladOrSade.build/Debug-iphonesimulator/GladOrSade.build/DerivedSources -isysroot /Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -c /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/GladOrSade-Prefix.pch -o /var/folders/ze/zehizt4nHIS2rYtnWUnw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GladOrSade-Prefix-bbtppkilgicokofqysuywnyesnqq/GladOrSade-Prefix.pch.gch0#
+
+CTouch /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app
+s323805125.878225
+e323805125.881106
+r1
+xTouch
+x/Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app
+lSLF07#2@86"Touch /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app323805125#323805125#0(0"0(0#0#0"8602168640#303"    cd /Users/emildusa/Work/Tests/GladOrSade    setenv PATH "/Developer/XCode_3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/emildusa/Work/Tests/GladOrSade/build/Debug-iphonesimulator/GladOrSade.app0#
+

@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC003E931354654400FA43E5 /* UICustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC003E921354654400FA43E5 /* UICustomLabel.m */; };
+		BC1FDB96135432C300358D1C /* LogoBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1FDB95135432C300358D1C /* LogoBanner.jpg */; };
+		BC1FDB981354377D00358D1C /* GladOrSadeConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC1FDB971354377D00358D1C /* GladOrSadeConfig.plist */; };
+		BC1FDB9A135438F300358D1C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC1FDB99135438F300358D1C /* Settings.bundle */; };
+		BC2D5DE9135745F100BFDF09 /* movie.mov in Resources */ = {isa = PBXBuildFile; fileRef = BC2D5DE8135745F100BFDF09 /* movie.mov */; };
+		BC51FAAB1354CAF800C7693D /* VCVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51FAA91354CAF800C7693D /* VCVideos.m */; };
+		BC51FAAC1354CAF800C7693D /* VCVideos.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC51FAAA1354CAF800C7693D /* VCVideos.xib */; };
+		BC51FAB01354D45D00C7693D /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51FAAF1354D45D00C7693D /* Video.m */; };
+		BC51FAB31354D8E300C7693D /* VideoCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51FAB21354D8E300C7693D /* VideoCellView.m */; };
+		BC51FAB71354E44000C7693D /* VCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51FAB51354E44000C7693D /* VCRecord.m */; };
+		BC51FAB81354E44000C7693D /* VCRecord.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC51FAB61354E44000C7693D /* VCRecord.xib */; };
+		BC762B641353721800E3605B /* VCMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = BC762B631353721800E3605B /* VCMgr.m */; };
+		BC762B7E135372C000E3605B /* VCTestRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = BC762B79135372C000E3605B /* VCTestRecording.m */; };
+		BC762B7F135372C000E3605B /* VCTestRecording.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC762B7A135372C000E3605B /* VCTestRecording.xib */; };
+		BC762B96135375D300E3605B /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = BC762B8F135375D300E3605B /* Configuration.m */; };
+		BC762B991353767B00E3605B /* Customization.m in Sources */ = {isa = PBXBuildFile; fileRef = BC762B981353767B00E3605B /* Customization.m */; };
+		BC762B9C135377A000E3605B /* Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = BC762B9B135377A000E3605B /* Trace.m */; };
+		BC9477AD134BB28B00560E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9477AC134BB28B00560E51 /* UIKit.framework */; };
+		BC9477AF134BB28B00560E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9477AE134BB28B00560E51 /* Foundation.framework */; };
+		BC9477B1134BB28B00560E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9477B0134BB28B00560E51 /* CoreGraphics.framework */; };
+		BC9477B7134BB28B00560E51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9477B5134BB28B00560E51 /* Localizable.strings */; };
+		BC9477BA134BB28B00560E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9477B9134BB28B00560E51 /* main.m */; };
+		BC9477BD134BB28B00560E51 /* GladOrSadeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9477BC134BB28B00560E51 /* GladOrSadeAppDelegate.m */; };
+		BC9477C1134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9477C0134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.m */; };
+		BC9477C4134BB28B00560E51 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9477C2134BB28B00560E51 /* MainWindow_iPhone.xib */; };
+		BC9477C8134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9477C7134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.m */; };
+		BC9477CB134BB28B00560E51 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9477C9134BB28B00560E51 /* MainWindow_iPad.xib */; };
+		BC9477D2134BB28B00560E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9477AC134BB28B00560E51 /* UIKit.framework */; };
+		BC9477D3134BB28B00560E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9477AE134BB28B00560E51 /* Foundation.framework */; };
+		BC9477D4134BB28B00560E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9477B0134BB28B00560E51 /* CoreGraphics.framework */; };
+		BC9477DC134BB28B00560E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9477DA134BB28B00560E51 /* InfoPlist.strings */; };
+		BC9477DF134BB28B00560E51 /* GladOrSadeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BC9477DE134BB28B00560E51 /* GladOrSadeTests.h */; };
+		BC9477E1134BB28B00560E51 /* GladOrSadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9477E0134BB28B00560E51 /* GladOrSadeTests.m */; };
+		BC98CEA3135C7C13005B66CA /* AVCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98CEA2135C7C13005B66CA /* AVCameraViewController.m */; };
+		BC98CEA6135C7CAB005B66CA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC98CEA5135C7CAB005B66CA /* CoreMedia.framework */; };
+		BC98CEA8135C7CC4005B66CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC98CEA7135C7CC4005B66CA /* QuartzCore.framework */; };
+		BC98CEAA135C7CD6005B66CA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC98CEA9135C7CD6005B66CA /* CoreVideo.framework */; };
+		BC98CEAC135C7CEE005B66CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC98CEAB135C7CEE005B66CA /* CoreData.framework */; };
+		BC98CEAE135C7D02005B66CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC98CEAD135C7D02005B66CA /* AVFoundation.framework */; };
+		BC9B08F71356251E00976675 /* AlertMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B08F61356251E00976675 /* AlertMessages.m */; };
+		BCE5D5641369CA4600D53284 /* VCChooseFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5D5621369CA4600D53284 /* VCChooseFrame.m */; };
+		BCE5D5651369CA4600D53284 /* VCChooseFrame.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE5D5631369CA4600D53284 /* VCChooseFrame.xib */; };
+		BCF21CC61354A3E700E521EA /* VCLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF21CC81354A3E700E521EA /* VCLogin.xib */; };
+		BCF9F76B134D8E2300891B5F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9F76A134D8E2300891B5F /* MediaPlayer.framework */; };
+		BCFE8025135469E500ADB61A /* VCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE8023135469E500ADB61A /* VCLogin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9477D5134BB28B00560E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC94779F134BB28A00560E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9477A7134BB28B00560E51;
+			remoteInfo = GladOrSade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC003E911354654400FA43E5 /* UICustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomLabel.h; sourceTree = "<group>"; };
+		BC003E921354654400FA43E5 /* UICustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomLabel.m; sourceTree = "<group>"; };
+		BC1FDB95135432C300358D1C /* LogoBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LogoBanner.jpg; sourceTree = "<group>"; };
+		BC1FDB971354377D00358D1C /* GladOrSadeConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GladOrSadeConfig.plist; sourceTree = "<group>"; };
+		BC1FDB99135438F300358D1C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		BC2D5DE8135745F100BFDF09 /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie.mov; path = GladOrSade/movie.mov; sourceTree = SOURCE_ROOT; };
+		BC51FAA81354CAF800C7693D /* VCVideos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCVideos.h; sourceTree = "<group>"; };
+		BC51FAA91354CAF800C7693D /* VCVideos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCVideos.m; sourceTree = "<group>"; };
+		BC51FAAA1354CAF800C7693D /* VCVideos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCVideos.xib; path = ../ViewControllers/VCVideos.xib; sourceTree = "<group>"; };
+		BC51FAAE1354D45D00C7693D /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		BC51FAAF1354D45D00C7693D /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		BC51FAB11354D8E300C7693D /* VideoCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCellView.h; sourceTree = "<group>"; };
+		BC51FAB21354D8E300C7693D /* VideoCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCellView.m; sourceTree = "<group>"; };
+		BC51FAB41354E44000C7693D /* VCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRecord.h; sourceTree = "<group>"; };
+		BC51FAB51354E44000C7693D /* VCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRecord.m; sourceTree = "<group>"; };
+		BC51FAB61354E44000C7693D /* VCRecord.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCRecord.xib; path = ../ViewControllers/VCRecord.xib; sourceTree = "<group>"; };
+		BC762B621353721800E3605B /* VCMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMgr.h; sourceTree = "<group>"; };
+		BC762B631353721800E3605B /* VCMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMgr.m; sourceTree = "<group>"; };
+		BC762B78135372C000E3605B /* VCTestRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTestRecording.h; sourceTree = "<group>"; };
+		BC762B79135372C000E3605B /* VCTestRecording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTestRecording.m; sourceTree = "<group>"; };
+		BC762B7A135372C000E3605B /* VCTestRecording.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCTestRecording.xib; sourceTree = "<group>"; };
+		BC762B831353733800E3605B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSadeTests/fr.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		BC762B841353733800E3605B /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/fr.lproj/MainWindow_iPad.xib; sourceTree = "<absolute>"; };
+		BC762B851353733800E3605B /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/fr.lproj/MainWindow_iPhone.xib; sourceTree = "<absolute>"; };
+		BC762B861353733800E3605B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/fr.lproj/Localizable.strings; sourceTree = "<absolute>"; };
+		BC762B871353736300E3605B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSadeTests/nl.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		BC762B881353736300E3605B /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/nl.lproj/MainWindow_iPad.xib; sourceTree = "<absolute>"; };
+		BC762B891353736300E3605B /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/nl.lproj/MainWindow_iPhone.xib; sourceTree = "<absolute>"; };
+		BC762B8A1353736300E3605B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/emildusa/Work/Tests/GladOrSade/GladOrSade/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
+		BC762B8C135375D300E3605B /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		BC762B8D135375D300E3605B /* ColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorList.h; sourceTree = "<group>"; };
+		BC762B8E135375D300E3605B /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		BC762B8F135375D300E3605B /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		BC762B90135375D300E3605B /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		BC762B91135375D300E3605B /* FontList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontList.h; sourceTree = "<group>"; };
+		BC762B92135375D300E3605B /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		BC762B93135375D300E3605B /* ImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageList.h; sourceTree = "<group>"; };
+		BC762B94135375D300E3605B /* LocalizedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedStrings.h; sourceTree = "<group>"; };
+		BC762B95135375D300E3605B /* LocalizedStringsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedStringsList.h; sourceTree = "<group>"; };
+		BC762B971353767B00E3605B /* Customization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customization.h; sourceTree = "<group>"; };
+		BC762B981353767B00E3605B /* Customization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customization.m; sourceTree = "<group>"; };
+		BC762B9A135377A000E3605B /* Trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trace.h; sourceTree = "<group>"; };
+		BC762B9B135377A000E3605B /* Trace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trace.m; sourceTree = "<group>"; };
+		BC9477A8134BB28B00560E51 /* GladOrSade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GladOrSade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9477AC134BB28B00560E51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC9477AE134BB28B00560E51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC9477B0134BB28B00560E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC9477B4134BB28B00560E51 /* GladOrSade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GladOrSade-Info.plist"; sourceTree = "<group>"; };
+		BC9477B6134BB28B00560E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9477B8134BB28B00560E51 /* GladOrSade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GladOrSade-Prefix.pch"; sourceTree = "<group>"; };
+		BC9477B9134BB28B00560E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9477BB134BB28B00560E51 /* GladOrSadeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GladOrSadeAppDelegate.h; sourceTree = "<group>"; };
+		BC9477BC134BB28B00560E51 /* GladOrSadeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GladOrSadeAppDelegate.m; sourceTree = "<group>"; };
+		BC9477BF134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GladOrSadeAppDelegate_iPhone.h; path = iPhone/GladOrSadeAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BC9477C0134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GladOrSadeAppDelegate_iPhone.m; path = iPhone/GladOrSadeAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		BC9477C3134BB28B00560E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		BC9477C6134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GladOrSadeAppDelegate_iPad.h; path = iPad/GladOrSadeAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BC9477C7134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GladOrSadeAppDelegate_iPad.m; path = iPad/GladOrSadeAppDelegate_iPad.m; sourceTree = "<group>"; };
+		BC9477CA134BB28B00560E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		BC9477D9134BB28B00560E51 /* GladOrSadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GladOrSadeTests-Info.plist"; sourceTree = "<group>"; };
+		BC9477DB134BB28B00560E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC9477DD134BB28B00560E51 /* GladOrSadeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GladOrSadeTests-Prefix.pch"; sourceTree = "<group>"; };
+		BC9477DE134BB28B00560E51 /* GladOrSadeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GladOrSadeTests.h; sourceTree = "<group>"; };
+		BC9477E0134BB28B00560E51 /* GladOrSadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GladOrSadeTests.m; sourceTree = "<group>"; };
+		BC98CEA1135C7C13005B66CA /* AVCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCameraViewController.h; sourceTree = "<group>"; };
+		BC98CEA2135C7C13005B66CA /* AVCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCameraViewController.m; sourceTree = "<group>"; };
+		BC98CEA5135C7CAB005B66CA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BC98CEA7135C7CC4005B66CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC98CEA9135C7CD6005B66CA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BC98CEAB135C7CEE005B66CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC98CEAD135C7D02005B66CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC9B08F51356251E00976675 /* AlertMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertMessages.h; sourceTree = "<group>"; };
+		BC9B08F61356251E00976675 /* AlertMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertMessages.m; sourceTree = "<group>"; };
+		BCD900C313537FBF00329B06 /* GladOrSadeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GladOrSadeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE5D5611369CA4600D53284 /* VCChooseFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCChooseFrame.h; sourceTree = "<group>"; };
+		BCE5D5621369CA4600D53284 /* VCChooseFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCChooseFrame.m; sourceTree = "<group>"; };
+		BCE5D5631369CA4600D53284 /* VCChooseFrame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCChooseFrame.xib; path = ../ViewControllers/VCChooseFrame.xib; sourceTree = "<group>"; };
+		BCF21CC71354A3E700E521EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VCLogin.xib; sourceTree = "<group>"; };
+		BCF9F76A134D8E2300891B5F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BCFE8022135469E500ADB61A /* VCLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLogin.h; sourceTree = "<group>"; };
+		BCFE8023135469E500ADB61A /* VCLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLogin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9477A5134BB28B00560E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC98CEAE135C7D02005B66CA /* AVFoundation.framework in Frameworks */,
+				BC98CEAC135C7CEE005B66CA /* CoreData.framework in Frameworks */,
+				BC98CEAA135C7CD6005B66CA /* CoreVideo.framework in Frameworks */,
+				BC98CEA8135C7CC4005B66CA /* QuartzCore.framework in Frameworks */,
+				BC9477B1134BB28B00560E51 /* CoreGraphics.framework in Frameworks */,
+				BC98CEA6135C7CAB005B66CA /* CoreMedia.framework in Frameworks */,
+				BCF9F76B134D8E2300891B5F /* MediaPlayer.framework in Frameworks */,
+				BC9477AD134BB28B00560E51 /* UIKit.framework in Frameworks */,
+				BC9477AF134BB28B00560E51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9477CD134BB28B00560E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9477D2134BB28B00560E51 /* UIKit.framework in Frameworks */,
+				BC9477D3134BB28B00560E51 /* Foundation.framework in Frameworks */,
+				BC9477D4134BB28B00560E51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC003E901354654400FA43E5 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC003E911354654400FA43E5 /* UICustomLabel.h */,
+				BC003E921354654400FA43E5 /* UICustomLabel.m */,
+				BC51FAB11354D8E300C7693D /* VideoCellView.h */,
+				BC51FAB21354D8E300C7693D /* VideoCellView.m */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		BC1FDB94135432C300358D1C /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				BC1FDB95135432C300358D1C /* LogoBanner.jpg */,
+			);
+			path = Logos;
+			sourceTree = "<group>";
+		};
+		BC51FAAD1354D43F00C7693D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC51FAAE1354D45D00C7693D /* Video.h */,
+				BC51FAAF1354D45D00C7693D /* Video.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC762B571353717600E3605B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC51FAAD1354D43F00C7693D /* Model */,
+				BC003E901354654400FA43E5 /* Custom Components */,
+				BC762B581353717600E3605B /* Common */,
+				BC762B591353717600E3605B /* Tests */,
+				BC762B5D1353717600E3605B /* ViewControllers */,
+				BC762B5E1353717600E3605B /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC762B581353717600E3605B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B08F51356251E00976675 /* AlertMessages.h */,
+				BC9B08F61356251E00976675 /* AlertMessages.m */,
+				BC762B9A135377A000E3605B /* Trace.h */,
+				BC762B9B135377A000E3605B /* Trace.m */,
+				BC762B971353767B00E3605B /* Customization.h */,
+				BC762B981353767B00E3605B /* Customization.m */,
+				BC762B8C135375D300E3605B /* Color.h */,
+				BC762B8D135375D300E3605B /* ColorList.h */,
+				BC762B8E135375D300E3605B /* Configuration.h */,
+				BC762B8F135375D300E3605B /* Configuration.m */,
+				BC762B90135375D300E3605B /* Font.h */,
+				BC762B91135375D300E3605B /* FontList.h */,
+				BC762B92135375D300E3605B /* Image.h */,
+				BC762B93135375D300E3605B /* ImageList.h */,
+				BC762B94135375D300E3605B /* LocalizedStrings.h */,
+				BC762B95135375D300E3605B /* LocalizedStringsList.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC762B591353717600E3605B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BC762B5D1353717600E3605B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC98CEA1135C7C13005B66CA /* AVCameraViewController.h */,
+				BC98CEA2135C7C13005B66CA /* AVCameraViewController.m */,
+				BC762B621353721800E3605B /* VCMgr.h */,
+				BC762B631353721800E3605B /* VCMgr.m */,
+				BCFE8022135469E500ADB61A /* VCLogin.h */,
+				BCFE8023135469E500ADB61A /* VCLogin.m */,
+				BC51FAA81354CAF800C7693D /* VCVideos.h */,
+				BC51FAA91354CAF800C7693D /* VCVideos.m */,
+				BC51FAB41354E44000C7693D /* VCRecord.h */,
+				BC51FAB51354E44000C7693D /* VCRecord.m */,
+				BCE5D5611369CA4600D53284 /* VCChooseFrame.h */,
+				BCE5D5621369CA4600D53284 /* VCChooseFrame.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC762B5E1353717600E3605B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC51FAB61354E44000C7693D /* VCRecord.xib */,
+				BCF21CC81354A3E700E521EA /* VCLogin.xib */,
+				BC51FAAA1354CAF800C7693D /* VCVideos.xib */,
+				BCE5D5631369CA4600D53284 /* VCChooseFrame.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC762B5F1353717600E3605B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC2D5DE8135745F100BFDF09 /* movie.mov */,
+				BC1FDB94135432C300358D1C /* Logos */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BC762B6A135372B300E3605B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC762B6B135372B300E3605B /* Common */,
+				BC762B6C135372B300E3605B /* Tests */,
+				BC762B70135372B300E3605B /* ViewControllers */,
+				BC762B71135372B300E3605B /* Views */,
+			);
+			name = Classes;
+			path = iPhone/Classes;
+			sourceTree = "<group>";
+		};
+		BC762B6B135372B300E3605B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC762B6C135372B300E3605B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BC762B70135372B300E3605B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC762B71135372B300E3605B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC762B72135372B300E3605B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			path = iPhone/Images;
+			sourceTree = "<group>";
+		};
+		BC762B75135372C000E3605B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC762B76135372C000E3605B /* Common */,
+				BC762B77135372C000E3605B /* Tests */,
+				BC762B7B135372C000E3605B /* ViewControllers */,
+				BC762B7C135372C000E3605B /* Views */,
+			);
+			name = Classes;
+			path = iPad/Classes;
+			sourceTree = "<group>";
+		};
+		BC762B76135372C000E3605B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC762B77135372C000E3605B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC762B78135372C000E3605B /* VCTestRecording.h */,
+				BC762B79135372C000E3605B /* VCTestRecording.m */,
+				BC762B7A135372C000E3605B /* VCTestRecording.xib */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BC762B7B135372C000E3605B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC762B7C135372C000E3605B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC762B7D135372C000E3605B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			path = iPad/Images;
+			sourceTree = "<group>";
+		};
+		BC94779D134BB28A00560E51 = {
+			isa = PBXGroup;
+			children = (
+				BC1FDB99135438F300358D1C /* Settings.bundle */,
+				BC9477B2134BB28B00560E51 /* GladOrSade */,
+				BC9477D7134BB28B00560E51 /* GladOrSadeTests */,
+				BC9477AB134BB28B00560E51 /* Frameworks */,
+				BC9477A9134BB28B00560E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9477A9134BB28B00560E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9477A8134BB28B00560E51 /* GladOrSade.app */,
+				BCD900C313537FBF00329B06 /* GladOrSadeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9477AB134BB28B00560E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC98CEAB135C7CEE005B66CA /* CoreData.framework */,
+				BC98CEA9135C7CD6005B66CA /* CoreVideo.framework */,
+				BC98CEA7135C7CC4005B66CA /* QuartzCore.framework */,
+				BC98CEA5135C7CAB005B66CA /* CoreMedia.framework */,
+				BC98CEAD135C7D02005B66CA /* AVFoundation.framework */,
+				BCF9F76A134D8E2300891B5F /* MediaPlayer.framework */,
+				BC9477AC134BB28B00560E51 /* UIKit.framework */,
+				BC9477AE134BB28B00560E51 /* Foundation.framework */,
+				BC9477B0134BB28B00560E51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9477B2134BB28B00560E51 /* GladOrSade */ = {
+			isa = PBXGroup;
+			children = (
+				BC762B571353717600E3605B /* Classes */,
+				BC9477BB134BB28B00560E51 /* GladOrSadeAppDelegate.h */,
+				BC9477BC134BB28B00560E51 /* GladOrSadeAppDelegate.m */,
+				BC9477BE134BB28B00560E51 /* iPhone */,
+				BC9477C5134BB28B00560E51 /* iPad */,
+				BC9477B3134BB28B00560E51 /* Supporting Files */,
+			);
+			path = GladOrSade;
+			sourceTree = "<group>";
+		};
+		BC9477B3134BB28B00560E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1FDB971354377D00358D1C /* GladOrSadeConfig.plist */,
+				BC9477B4134BB28B00560E51 /* GladOrSade-Info.plist */,
+				BC9477B5134BB28B00560E51 /* Localizable.strings */,
+				BC9477B8134BB28B00560E51 /* GladOrSade-Prefix.pch */,
+				BC9477B9134BB28B00560E51 /* main.m */,
+				BC762B5F1353717600E3605B /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9477BE134BB28B00560E51 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BC762B6A135372B300E3605B /* Classes */,
+				BC762B72135372B300E3605B /* Images */,
+				BC9477BF134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.h */,
+				BC9477C0134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.m */,
+				BC9477C2134BB28B00560E51 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BC9477C5134BB28B00560E51 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BC762B75135372C000E3605B /* Classes */,
+				BC762B7D135372C000E3605B /* Images */,
+				BC9477C6134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.h */,
+				BC9477C7134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.m */,
+				BC9477C9134BB28B00560E51 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		BC9477D7134BB28B00560E51 /* GladOrSadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9477DE134BB28B00560E51 /* GladOrSadeTests.h */,
+				BC9477E0134BB28B00560E51 /* GladOrSadeTests.m */,
+				BC9477D8134BB28B00560E51 /* Supporting Files */,
+			);
+			path = GladOrSadeTests;
+			sourceTree = "<group>";
+		};
+		BC9477D8134BB28B00560E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9477D9134BB28B00560E51 /* GladOrSadeTests-Info.plist */,
+				BC9477DA134BB28B00560E51 /* InfoPlist.strings */,
+				BC9477DD134BB28B00560E51 /* GladOrSadeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9477A7134BB28B00560E51 /* GladOrSade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9477E4134BB28B00560E51 /* Build configuration list for PBXNativeTarget "GladOrSade" */;
+			buildPhases = (
+				BC9477A4134BB28B00560E51 /* Sources */,
+				BC9477A5134BB28B00560E51 /* Frameworks */,
+				BC9477A6134BB28B00560E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GladOrSade;
+			productName = GladOrSade;
+			productReference = BC9477A8134BB28B00560E51 /* GladOrSade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC9477D0134BB28B00560E51 /* GladOrSadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9477E7134BB28B00560E51 /* Build configuration list for PBXNativeTarget "GladOrSadeTests" */;
+			buildPhases = (
+				BC9477CC134BB28B00560E51 /* Sources */,
+				BC9477CD134BB28B00560E51 /* Frameworks */,
+				BC9477CE134BB28B00560E51 /* Resources */,
+				BC9477CF134BB28B00560E51 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9477D6134BB28B00560E51 /* PBXTargetDependency */,
+			);
+			name = GladOrSadeTests;
+			productName = GladOrSadeTests;
+			productReference = BCD900C313537FBF00329B06 /* GladOrSadeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC94779F134BB28A00560E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ALU;
+			};
+			buildConfigurationList = BC9477A2134BB28A00560E51 /* Build configuration list for PBXProject "GladOrSade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC94779D134BB28A00560E51;
+			productRefGroup = BC9477A9134BB28B00560E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9477A7134BB28B00560E51 /* GladOrSade */,
+				BC9477D0134BB28B00560E51 /* GladOrSadeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9477A6134BB28B00560E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9477B7134BB28B00560E51 /* Localizable.strings in Resources */,
+				BC9477C4134BB28B00560E51 /* MainWindow_iPhone.xib in Resources */,
+				BC9477CB134BB28B00560E51 /* MainWindow_iPad.xib in Resources */,
+				BC762B7F135372C000E3605B /* VCTestRecording.xib in Resources */,
+				BC1FDB96135432C300358D1C /* LogoBanner.jpg in Resources */,
+				BC1FDB981354377D00358D1C /* GladOrSadeConfig.plist in Resources */,
+				BC1FDB9A135438F300358D1C /* Settings.bundle in Resources */,
+				BCF21CC61354A3E700E521EA /* VCLogin.xib in Resources */,
+				BC51FAAC1354CAF800C7693D /* VCVideos.xib in Resources */,
+				BC51FAB81354E44000C7693D /* VCRecord.xib in Resources */,
+				BC2D5DE9135745F100BFDF09 /* movie.mov in Resources */,
+				BCE5D5651369CA4600D53284 /* VCChooseFrame.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9477CE134BB28B00560E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9477DC134BB28B00560E51 /* InfoPlist.strings in Resources */,
+				BC9477DF134BB28B00560E51 /* GladOrSadeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC9477CF134BB28B00560E51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9477A4134BB28B00560E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9477BA134BB28B00560E51 /* main.m in Sources */,
+				BC9477BD134BB28B00560E51 /* GladOrSadeAppDelegate.m in Sources */,
+				BC9477C1134BB28B00560E51 /* GladOrSadeAppDelegate_iPhone.m in Sources */,
+				BC9477C8134BB28B00560E51 /* GladOrSadeAppDelegate_iPad.m in Sources */,
+				BC762B641353721800E3605B /* VCMgr.m in Sources */,
+				BC762B7E135372C000E3605B /* VCTestRecording.m in Sources */,
+				BC762B96135375D300E3605B /* Configuration.m in Sources */,
+				BC762B991353767B00E3605B /* Customization.m in Sources */,
+				BC762B9C135377A000E3605B /* Trace.m in Sources */,
+				BC003E931354654400FA43E5 /* UICustomLabel.m in Sources */,
+				BCFE8025135469E500ADB61A /* VCLogin.m in Sources */,
+				BC51FAAB1354CAF800C7693D /* VCVideos.m in Sources */,
+				BC51FAB01354D45D00C7693D /* Video.m in Sources */,
+				BC51FAB31354D8E300C7693D /* VideoCellView.m in Sources */,
+				BC51FAB71354E44000C7693D /* VCRecord.m in Sources */,
+				BC9B08F71356251E00976675 /* AlertMessages.m in Sources */,
+				BC98CEA3135C7C13005B66CA /* AVCameraViewController.m in Sources */,
+				BCE5D5641369CA4600D53284 /* VCChooseFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9477CC134BB28B00560E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9477E1134BB28B00560E51 /* GladOrSadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9477D6134BB28B00560E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9477A7134BB28B00560E51 /* GladOrSade */;
+			targetProxy = BC9477D5134BB28B00560E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9477B5134BB28B00560E51 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9477B6134BB28B00560E51 /* en */,
+				BC762B861353733800E3605B /* fr */,
+				BC762B8A1353736300E3605B /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BC9477C2134BB28B00560E51 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9477C3134BB28B00560E51 /* en */,
+				BC762B851353733800E3605B /* fr */,
+				BC762B891353736300E3605B /* nl */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BC9477C9134BB28B00560E51 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9477CA134BB28B00560E51 /* en */,
+				BC762B841353733800E3605B /* fr */,
+				BC762B881353736300E3605B /* nl */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BC9477DA134BB28B00560E51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9477DB134BB28B00560E51 /* en */,
+				BC762B831353733800E3605B /* fr */,
+				BC762B871353736300E3605B /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCF21CC81354A3E700E521EA /* VCLogin.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF21CC71354A3E700E521EA /* en */,
+			);
+			name = VCLogin.xib;
+			path = ../ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9477E2134BB28B00560E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emil Gabriel Dusa (KQ2XM38Q46)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "32D709CD-5E51-4AE5-A116-8B96DB44CEF5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9477E3134BB28B00560E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emil Gabriel Dusa (KQ2XM38Q46)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "32D709CD-5E51-4AE5-A116-8B96DB44CEF5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC9477E5134BB28B00560E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GladOrSade/GladOrSade-Prefix.pch";
+				INFOPLIST_FILE = "GladOrSade/GladOrSade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC9477E6134BB28B00560E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GladOrSade/GladOrSade-Prefix.pch";
+				INFOPLIST_FILE = "GladOrSade/GladOrSade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC9477E8134BB28B00560E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GladOrSade.app/GladOrSade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GladOrSadeTests/GladOrSadeTests-Prefix.pch";
+				INFOPLIST_FILE = "GladOrSadeTests/GladOrSadeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC9477E9134BB28B00560E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GladOrSade.app/GladOrSade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GladOrSadeTests/GladOrSadeTests-Prefix.pch";
+				INFOPLIST_FILE = "GladOrSadeTests/GladOrSadeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9477A2134BB28A00560E51 /* Build configuration list for PBXProject "GladOrSade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9477E2134BB28B00560E51 /* Debug */,
+				BC9477E3134BB28B00560E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9477E4134BB28B00560E51 /* Build configuration list for PBXNativeTarget "GladOrSade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9477E5134BB28B00560E51 /* Debug */,
+				BC9477E6134BB28B00560E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9477E7134BB28B00560E51 /* Build configuration list for PBXNativeTarget "GladOrSadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9477E8134BB28B00560E51 /* Debug */,
+				BC9477E9134BB28B00560E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC94779F134BB28A00560E51 /* Project object */;
+}

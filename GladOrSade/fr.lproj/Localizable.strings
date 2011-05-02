@@ -1,0 +1,17 @@
+/* Localized versions of Info.plist keys */
+
+"PLACEHOLDER_USERNAME" = "Enter username";
+"PLACEHOLDER_PASSWORD" = "Enter password";
+"BUTTON_LOGIN" = "Login";
+"TEXT_REGISTER_FOR_ACCOUNT" = "Create an account on www.GladOrSad.com.";
+"LOGIN_ERROR_TITLE" = "Login Error";
+"LOGIN_ERROR_MESSAGE" = "Bad username or password!";  
+"LOGIN_ERROR_BUTTON_TITLE" = "Ok";
+
+"SELECT_VIDEOS" = "We need your input on the following movies:";
+
+"MESSAGE_HEADER_PLAYER_CANNOT_START" = "Player error";
+"MESSAGE_PLAYER_CANNOT_START" = "An error occured when starting the player";
+"NO_CANERA_SUPPORT" = "Your device has no camera!";
+"DEVICE_IS_NOT_IPHONE4" = "Your device is not iPhone4";
+"BUTTON_OK" = "Ok";
