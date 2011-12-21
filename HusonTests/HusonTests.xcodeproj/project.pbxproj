@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94B12B314A1D90B005817B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B12B214A1D90B005817B0 /* UIKit.framework */; };
+		A94B12B514A1D90B005817B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B12B414A1D90B005817B0 /* Foundation.framework */; };
+		A94B12B714A1D90B005817B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B12B614A1D90B005817B0 /* CoreGraphics.framework */; };
+		A94B12BD14A1D90B005817B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94B12BB14A1D90B005817B0 /* InfoPlist.strings */; };
+		A94B12BF14A1D90B005817B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94B12BE14A1D90B005817B0 /* main.m */; };
+		A94B12C314A1D90B005817B0 /* com_deg_allradios_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94B12C214A1D90B005817B0 /* com_deg_allradios_AppDelegate.m */; };
+		A94B12C614A1D90B005817B0 /* com_deg_allradios_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94B12C514A1D90B005817B0 /* com_deg_allradios_ViewController.m */; };
+		A94B12C914A1D90B005817B0 /* com_deg_allradios_ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94B12C714A1D90B005817B0 /* com_deg_allradios_ViewController_iPhone.xib */; };
+		A94B12CC14A1D90B005817B0 /* com_deg_allradios_ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94B12CA14A1D90B005817B0 /* com_deg_allradios_ViewController_iPad.xib */; };
+		A94B12D414A1D90B005817B0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B12D314A1D90B005817B0 /* SenTestingKit.framework */; };
+		A94B12D514A1D90B005817B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B12B214A1D90B005817B0 /* UIKit.framework */; };
+		A94B12D614A1D90B005817B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B12B414A1D90B005817B0 /* Foundation.framework */; };
+		A94B12DE14A1D90B005817B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94B12DC14A1D90B005817B0 /* InfoPlist.strings */; };
+		A94B12E114A1D90B005817B0 /* HusonTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94B12E014A1D90B005817B0 /* HusonTestsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94B12D714A1D90B005817B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94B12A514A1D90A005817B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94B12AD14A1D90B005817B0;
+			remoteInfo = HusonTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94B12AE14A1D90B005817B0 /* HusonTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HusonTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94B12B214A1D90B005817B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A94B12B414A1D90B005817B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94B12B614A1D90B005817B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A94B12BA14A1D90B005817B0 /* HusonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HusonTests-Info.plist"; sourceTree = "<group>"; };
+		A94B12BC14A1D90B005817B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94B12BE14A1D90B005817B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94B12C014A1D90B005817B0 /* HusonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HusonTests-Prefix.pch"; sourceTree = "<group>"; };
+		A94B12C114A1D90B005817B0 /* com_deg_allradios_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_deg_allradios_AppDelegate.h; sourceTree = "<group>"; };
+		A94B12C214A1D90B005817B0 /* com_deg_allradios_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_deg_allradios_AppDelegate.m; sourceTree = "<group>"; };
+		A94B12C414A1D90B005817B0 /* com_deg_allradios_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_deg_allradios_ViewController.h; sourceTree = "<group>"; };
+		A94B12C514A1D90B005817B0 /* com_deg_allradios_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_deg_allradios_ViewController.m; sourceTree = "<group>"; };
+		A94B12C814A1D90B005817B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_deg_allradios_ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A94B12CB14A1D90B005817B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_deg_allradios_ViewController_iPad.xib; sourceTree = "<group>"; };
+		A94B12D214A1D90B005817B0 /* HusonTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HusonTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94B12D314A1D90B005817B0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A94B12DB14A1D90B005817B0 /* HusonTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HusonTestsTests-Info.plist"; sourceTree = "<group>"; };
+		A94B12DD14A1D90B005817B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94B12DF14A1D90B005817B0 /* HusonTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HusonTestsTests.h; sourceTree = "<group>"; };
+		A94B12E014A1D90B005817B0 /* HusonTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HusonTestsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94B12AB14A1D90B005817B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B12B314A1D90B005817B0 /* UIKit.framework in Frameworks */,
+				A94B12B514A1D90B005817B0 /* Foundation.framework in Frameworks */,
+				A94B12B714A1D90B005817B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94B12CE14A1D90B005817B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B12D414A1D90B005817B0 /* SenTestingKit.framework in Frameworks */,
+				A94B12D514A1D90B005817B0 /* UIKit.framework in Frameworks */,
+				A94B12D614A1D90B005817B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94B12A314A1D90A005817B0 = {
+			isa = PBXGroup;
+			children = (
+				A94B12B814A1D90B005817B0 /* HusonTests */,
+				A94B12D914A1D90B005817B0 /* HusonTestsTests */,
+				A94B12B114A1D90B005817B0 /* Frameworks */,
+				A94B12AF14A1D90B005817B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94B12AF14A1D90B005817B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94B12AE14A1D90B005817B0 /* HusonTests.app */,
+				A94B12D214A1D90B005817B0 /* HusonTestsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94B12B114A1D90B005817B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94B12B214A1D90B005817B0 /* UIKit.framework */,
+				A94B12B414A1D90B005817B0 /* Foundation.framework */,
+				A94B12B614A1D90B005817B0 /* CoreGraphics.framework */,
+				A94B12D314A1D90B005817B0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94B12B814A1D90B005817B0 /* HusonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94B12C114A1D90B005817B0 /* com_deg_allradios_AppDelegate.h */,
+				A94B12C214A1D90B005817B0 /* com_deg_allradios_AppDelegate.m */,
+				A94B12C414A1D90B005817B0 /* com_deg_allradios_ViewController.h */,
+				A94B12C514A1D90B005817B0 /* com_deg_allradios_ViewController.m */,
+				A94B12C714A1D90B005817B0 /* com_deg_allradios_ViewController_iPhone.xib */,
+				A94B12CA14A1D90B005817B0 /* com_deg_allradios_ViewController_iPad.xib */,
+				A94B12B914A1D90B005817B0 /* Supporting Files */,
+			);
+			path = HusonTests;
+			sourceTree = "<group>";
+		};
+		A94B12B914A1D90B005817B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94B12BA14A1D90B005817B0 /* HusonTests-Info.plist */,
+				A94B12BB14A1D90B005817B0 /* InfoPlist.strings */,
+				A94B12BE14A1D90B005817B0 /* main.m */,
+				A94B12C014A1D90B005817B0 /* HusonTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94B12D914A1D90B005817B0 /* HusonTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94B12DF14A1D90B005817B0 /* HusonTestsTests.h */,
+				A94B12E014A1D90B005817B0 /* HusonTestsTests.m */,
+				A94B12DA14A1D90B005817B0 /* Supporting Files */,
+			);
+			path = HusonTestsTests;
+			sourceTree = "<group>";
+		};
+		A94B12DA14A1D90B005817B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94B12DB14A1D90B005817B0 /* HusonTestsTests-Info.plist */,
+				A94B12DC14A1D90B005817B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94B12AD14A1D90B005817B0 /* HusonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94B12E414A1D90B005817B0 /* Build configuration list for PBXNativeTarget "HusonTests" */;
+			buildPhases = (
+				A94B12AA14A1D90B005817B0 /* Sources */,
+				A94B12AB14A1D90B005817B0 /* Frameworks */,
+				A94B12AC14A1D90B005817B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HusonTests;
+			productName = HusonTests;
+			productReference = A94B12AE14A1D90B005817B0 /* HusonTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94B12D114A1D90B005817B0 /* HusonTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94B12E714A1D90B005817B0 /* Build configuration list for PBXNativeTarget "HusonTestsTests" */;
+			buildPhases = (
+				A94B12CD14A1D90B005817B0 /* Sources */,
+				A94B12CE14A1D90B005817B0 /* Frameworks */,
+				A94B12CF14A1D90B005817B0 /* Resources */,
+				A94B12D014A1D90B005817B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94B12D814A1D90B005817B0 /* PBXTargetDependency */,
+			);
+			name = HusonTestsTests;
+			productName = HusonTestsTests;
+			productReference = A94B12D214A1D90B005817B0 /* HusonTestsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94B12A514A1D90A005817B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A94B12A814A1D90A005817B0 /* Build configuration list for PBXProject "HusonTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A94B12A314A1D90A005817B0;
+			productRefGroup = A94B12AF14A1D90B005817B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94B12AD14A1D90B005817B0 /* HusonTests */,
+				A94B12D114A1D90B005817B0 /* HusonTestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94B12AC14A1D90B005817B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B12BD14A1D90B005817B0 /* InfoPlist.strings in Resources */,
+				A94B12C914A1D90B005817B0 /* com_deg_allradios_ViewController_iPhone.xib in Resources */,
+				A94B12CC14A1D90B005817B0 /* com_deg_allradios_ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94B12CF14A1D90B005817B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B12DE14A1D90B005817B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A94B12D014A1D90B005817B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94B12AA14A1D90B005817B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B12BF14A1D90B005817B0 /* main.m in Sources */,
+				A94B12C314A1D90B005817B0 /* com_deg_allradios_AppDelegate.m in Sources */,
+				A94B12C614A1D90B005817B0 /* com_deg_allradios_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94B12CD14A1D90B005817B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B12E114A1D90B005817B0 /* HusonTestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94B12D814A1D90B005817B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94B12AD14A1D90B005817B0 /* HusonTests */;
+			targetProxy = A94B12D714A1D90B005817B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94B12BB14A1D90B005817B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94B12BC14A1D90B005817B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A94B12C714A1D90B005817B0 /* com_deg_allradios_ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94B12C814A1D90B005817B0 /* en */,
+			);
+			name = com_deg_allradios_ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A94B12CA14A1D90B005817B0 /* com_deg_allradios_ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94B12CB14A1D90B005817B0 /* en */,
+			);
+			name = com_deg_allradios_ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A94B12DC14A1D90B005817B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94B12DD14A1D90B005817B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94B12E214A1D90B005817B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94B12E314A1D90B005817B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94B12E514A1D90B005817B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HusonTests/HusonTests-Prefix.pch";
+				INFOPLIST_FILE = "HusonTests/HusonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A94B12E614A1D90B005817B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HusonTests/HusonTests-Prefix.pch";
+				INFOPLIST_FILE = "HusonTests/HusonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A94B12E814A1D90B005817B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HusonTests.app/HusonTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HusonTests/HusonTests-Prefix.pch";
+				INFOPLIST_FILE = "HusonTestsTests/HusonTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A94B12E914A1D90B005817B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HusonTests.app/HusonTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HusonTests/HusonTests-Prefix.pch";
+				INFOPLIST_FILE = "HusonTestsTests/HusonTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94B12A814A1D90A005817B0 /* Build configuration list for PBXProject "HusonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94B12E214A1D90B005817B0 /* Debug */,
+				A94B12E314A1D90B005817B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94B12E414A1D90B005817B0 /* Build configuration list for PBXNativeTarget "HusonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94B12E514A1D90B005817B0 /* Debug */,
+				A94B12E614A1D90B005817B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A94B12E714A1D90B005817B0 /* Build configuration list for PBXNativeTarget "HusonTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94B12E814A1D90B005817B0 /* Debug */,
+				A94B12E914A1D90B005817B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94B12A514A1D90A005817B0 /* Project object */;
+}

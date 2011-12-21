@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'GladOrSadeTests' target in the 'GladOrSadeTests' project
-//
-
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-#endif
